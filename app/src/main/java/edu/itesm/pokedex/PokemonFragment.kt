@@ -39,7 +39,7 @@ class PokemonFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         picture.setImageResource(args.pokemon.picture)
         nombre.text = args.pokemon.nombre
-        tipo.text = args.pokemon.nombre
+        tipo.text = args.pokemon.tipo
         descripcion.text = args.pokemon.descripcion
     }
 

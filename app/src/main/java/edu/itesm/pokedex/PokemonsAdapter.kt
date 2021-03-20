@@ -36,6 +36,7 @@ class PokemonsAdapter(private val pokemons : List<Pokemon>)
         holder.itemView.setOnClickListener {
             val action = PokemonsFragmentDirections.actionPokemonsFragmentToPokemonFragment3(pokemon)
             holder.itemView.findNavController().navigate(action)
+            Toast.makeText(holder.itemView.context,"${pokemon.habilidad}",Toast.LENGTH_SHORT).show()
         }
     }
 
