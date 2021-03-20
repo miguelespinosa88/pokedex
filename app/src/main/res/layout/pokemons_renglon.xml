@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/card_pertanyaan"
-    card_view:cardBackgroundColor="#E3312E"
     card_view:contentPadding="10dp"
+    card_view:cardBackgroundColor="#80000000"
     android:foreground="?selectableItemBackground"
     android:clickable="true">
 

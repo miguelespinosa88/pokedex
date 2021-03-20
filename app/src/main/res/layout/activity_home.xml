@@ -13,4 +13,5 @@
         app:srcCompat="@drawable/pokedex_cover"
         tools:layout_editor_absoluteX="-5dp"
         tools:layout_editor_absoluteY="-4dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -34,11 +34,9 @@ class PokemonsAdapter(private val pokemons : List<Pokemon>)
         holder.tipo.text = pokemon.tipo
         holder.descripcion.text = pokemon.descripcion
         holder.itemView.setOnClickListener {
-
             val action = PokemonsFragmentDirections.actionPokemonsFragmentToPokemonFragment3(pokemon)
             holder.itemView.findNavController().navigate(action)
         }
-
     }
 
     // Cuantos elementos tiene la lista
